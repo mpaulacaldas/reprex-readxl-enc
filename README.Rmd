@@ -1,0 +1,18 @@
+---
+title: "Problem with `readxl` and encoding"
+output: github_document
+---
+
+The problem is this:
+
+1. I import a file (large one, French)
+1. Into my computer (Windows, French)
+1. Using `readxl`
+1. `==` condition doesn't work whenever I *type* the value of interest
+
+**What is going on?** Guessing it's related to the encoding?
+
+Here is a reprex:
+
+```{r, child="example_reprex.md"}
+```
