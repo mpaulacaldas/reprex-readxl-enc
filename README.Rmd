@@ -16,3 +16,12 @@ Here is a reprex:
 
 ```{r, child="example_reprex.md"}
 ```
+
+## Solution
+
+From the [grrr Slack community](https://r-grrr.slack.com/archives/C9N6AESJG/p1539086400000100
+) :clap:
+
+```{r, child="example-fix_reprex.md"}
+```
+
